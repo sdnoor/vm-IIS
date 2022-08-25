@@ -1,0 +1,29 @@
+{
+    "$schema": "https://schema.management.azure.com/schemas/2019-04-01/deploymentParameters.json#",
+ "parameters": {
+    "location": {
+        "value": "westeurope"
+    },
+    "project": {
+        "value": "abc"
+    },
+    "vmName": {
+        "value": "noorwindows10"
+    },
+    "vmSize": {
+        "value": "Standard_A1_v2"
+    },
+    "computerName": {
+        "value": "cebsdevops"
+    },
+    "adminUsername": {
+        "value": "logitech"
+    },
+    "adminPass": {
+        "value": "Scandisk28*"
+    },
+    "vmSku": {
+        "value": "2016-Datacenter"
+    }
+ }
+}
